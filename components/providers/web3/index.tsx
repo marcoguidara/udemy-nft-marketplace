@@ -39,7 +39,7 @@ const Web3Provider: FunctionComponent = ({children}) => {
         setWeb3Api(createWeb3State({
           ethereum: window.ethereum,
           provider,
-          contract: contract as unknown as NftMarketContract,
+          contract: signedContract as unknown as NftMarketContract,
           isLoading: false
         }))
       } catch(e: any) {

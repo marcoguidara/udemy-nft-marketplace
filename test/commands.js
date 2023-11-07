@@ -1,4 +1,4 @@
 const instance = await NftMarket.deployed();
 
-instance.mintToken(process.env.NEXT_PUBLIC_PINATA_TEST_META_JSON_01,"500000000000000000", {value: "25000000000000000",from: accounts[0]})
-instance.mintToken(process.env.NEXT_PUBLIC_PINATA_TEST_META_JSON_02,"300000000000000000", {value: "25000000000000000",from: accounts[0]})
+instance.mintToken("https://harlequin-decisive-cuckoo-808.mypinata.cloud/ipfs/QmfZ5mnex8vGWiSvR9x4MucUPacDjrL6kGBVQV7vkyXViG?_gl=1*10bo2fg*_ga*MTU3MDYxOTQwMS4xNjk5MDA3MzM5*_ga_5RMPXG14TE*MTY5OTI3MTIzNy4zLjEuMTY5OTI3MTI0NC41My4wLjA.","500000000000000000", {value: "25000000000000000",from: accounts[0]})
+instance.mintToken("https://harlequin-decisive-cuckoo-808.mypinata.cloud/ipfs/QmeAgiNkmvLn7BL1XBN54bibP6Tynj69y3tiKa5YFwxp3K?_gl=1*1td5gz5*_ga*MTU3MDYxOTQwMS4xNjk5MDA3MzM5*_ga_5RMPXG14TE*MTY5OTI4MjYyOS40LjAuMTY5OTI4MjYyOS42MC4wLjA.","300000000000000000", {value: "25000000000000000",from: accounts[0]})
